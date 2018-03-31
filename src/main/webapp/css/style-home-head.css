@@ -1,0 +1,58 @@
+.navbar-custom{
+	position:absolute;
+	top:0px;
+	width:100%;
+}
+
+
+.navbar a{
+	color:white;
+	font-weight:bold;
+}
+
+.nav li a:hover {
+	background:white;
+	color : orange;
+}
+
+header {
+	height:480px;
+	color : white;
+	padding : 150px 0;
+}
+
+header h1 {
+	font-size:160px;
+}
+
+
+header p {
+	font-size:80px;
+	text-shadow:3px 3px 2px black;
+}
+
+.part1{
+	font-size:18px;
+	padding : 20px 0px;
+	margin:20px 0px;
+}
+
+.part2{
+	font-size:18px;
+	padding : 20px 0px;
+	margin:20px 0px;
+	background:#f1f1f1;
+}
+
+.part3{
+	font-size:18px;
+	padding : 20px 0px;
+	margin:20px 0px;
+}
+
+
+
+.footer{
+	color:white;
+}
+

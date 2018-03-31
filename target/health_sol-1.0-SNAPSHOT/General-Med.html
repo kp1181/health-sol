@@ -1,0 +1,185 @@
+<html>
+	<head>
+		<title>General Medicine</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Include the plugin's CSS and JS: -->
+    <script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
+    <link rel="stylesheet" href="css/bootstrap-multiselect.css" type="text/css">
+
+
+    <!-- Include the date-time plugin's CSS and JS: -->
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+     <style>
+.inv {
+    display: none;
+}
+.dropdown {
+  position: relative;
+  display:block;
+  margin-top:0.5em;
+  padding:0;
+}
+<!--table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}-->
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+    </style>
+    
+	</head>
+	  <body>
+      <nav class="navbar navbar-custom ">
+  			<div class="container-fluid">
+  				<div class="navbar-header">
+  					<a href="#" class="navbar-brand">Telemedicine</a>
+  				</div>
+  				<ul class="nav navbar-nav navbar-right">
+  					<li><a href="main-Home.jsp">Home</a></li>
+						<li><a href="#">Admin</a></li>
+  					<li><a href="#">Contact Us</a></li>
+  				</ul>
+  			</div>
+
+  		</nav>
+  		<header class="img-responsive " style="background: url('https://safety4sea.com/wp-content/uploads/2017/02/Telemedicine-1280x640.jpg');">
+  			<div class="text-center">
+  				<p>Health Solutions</p>
+  			</div>
+  		</header>
+
+<div class="clearfix"></div>
+	    <div class="container col-md-12			">
+<div class="row col-md-12			">
+<div class="page-header text-center">
+<h1>List of Medicines</h1>
+</div>
+<form class="form-horizontal" role="form" method="post" action="#">
+<div class="form-group">
+ <table class="table">
+  <tr>
+    <th>Type</th>
+    <th>Medicine</th>
+    <th>Quantity</th>
+	<th>Daily use</th>
+  </tr>
+  <tr>
+    <td>Fever</td>
+    <td>Paracetmol</td>
+    <td>550mg</td>
+	<td>3/day</td>
+  </tr>
+  <tr>
+    <td>cold</td>
+    <td>levociz</td>
+	    <td>5mg</td>
+    <td>Bed Time</td>
+  </tr>
+  <tr>
+    <td>Cough</td>
+    <td>Benadryl(wet)<br>Dextromethorphan(dry)</td>
+	    <td>5ml</td>
+    <td>2/day</td>
+  </tr>
+
+
+  <tr>
+    <td>Asthama</td>
+    <td>solbutamol nebuligerazo</td>
+	<td>200ug</td>
+    <td>Every 6hr</td>
+</tr>
+
+
+  <tr>	
+	<td>Asthama</td>
+    <td>beclomethne nebuligerazo</td>
+	<td>100ug</td>
+    <td>Every 4hr</td>
+  </tr>
+  <tr>
+    <td>TB-4Months</td>
+    <td>isooniazed+pyroxidine<br>rifacmpicin<br>pyrazinamide<br>ethambutol</td>
+	<td>15mg<br>450mg<br>750mg<br>800mg</td>
+    <td>once/day<br>Early mrng<br>twice/day<br>once/day</td>
+  </tr>
+  <tr>
+    <td>TB-2Months</td>
+    <td>isooniazed+pyroxidine<br>rifacmpicin</td>
+	<td>300mg+15mg<br>450mg</td>
+    <td>once/day<br>once/day</td>
+  </tr>
+  <tr>
+    <td>Tonsillitis</td>
+    <td>azithronycin<br>ibuprofen<br>paracetmol</td>
+	<td>500mg<br>400mg<br>500mg</td>
+    <td>Once<br>Twice<br>Thrice</td>
+  </tr>
+
+
+  <tr>
+    <td>Filariasis</td>
+    <td>Diethylcarbamazine citrate<br>altbendazile</td>
+	 <td>100mg<br>400mg</td>
+    <td>1/d for 12d<<br>Once</td>
+  </tr>
+  <tr>
+    <td>Amoebiasis</td>
+    <td>metronidazole<br>diloxanide</td>
+	<td>800mg<br>500mg</td>
+    <td>3/dayfor7</td>
+  </tr>
+  <tr>
+    <td>vomitings</td>
+    <td>domperidine</td>
+	<td>10mg</td>
+    <td>4/day</td>
+  </tr>
+  <tr>
+    <td>Constipation</td>
+    <td>Syrup lactulose(child)<br>bisacodyl(adults)</td>
+	<td>10mg<br>10mg</td>
+    <td>2/day<br>1-Before Bed</td>
+  </tr>
+
+</table>
+    </div>
+
+        <script>
+            document
+                .getElementById('target')
+                .addEventListener('change', function () {
+                    'use strict';
+                    var vis = document.querySelector('.vis'),   
+                        target = document.getElementById(this.value);
+                    if (vis !== null) {
+                        vis.className = 'inv';
+                    }
+                    if (target !== null ) {
+                        target.className = 'vis';
+                    }
+            });
+        </script>
+</div>
+   
+ </div>
+</div>
+</div>
+</form>
+</body>
+ 
